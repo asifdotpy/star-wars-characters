@@ -1,0 +1,21 @@
+.card-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  background-color: #f1c40f;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 0 8px;
+  padding: 8px 16px;
+}
+

@@ -1,0 +1,13 @@
+.card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  width: 300px;
+}
+
+.card-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
