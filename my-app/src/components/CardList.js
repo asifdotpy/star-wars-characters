@@ -22,7 +22,7 @@ function CardList(props) {
       {cardList}
       <div className="pagination">
         {[...Array(pageCount)].map((_, i) => (
-          <button key={i} onClick={() => handlePageChange(i + 1)}>
+          <button key={i} onClick={() => handlePageChange(i + 1)} style={{ backgroundColor: '#f1c40f', border: 'none', borderRadius: '4px', color: 'white', cursor: 'pointer', fontSize: '16px', margin: '0 8px', padding: '8px 16px' }}>
             {i + 1}
           </button>
         ))}
